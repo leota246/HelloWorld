@@ -1,0 +1,176 @@
+{
+  "contractName": "helloWorld",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820ce80d2ba343ec3429f9cd2a31f4f382608632416ba5b04ec4278a69943ec5cc10029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820ce80d2ba343ec3429f9cd2a31f4f382608632416ba5b04ec4278a69943ec5cc10029",
+  "sourceMap": "26:52:1:-;;;50:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;50:26:1;26:52;;;;;;",
+  "deployedSourceMap": "26:52:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\n\ncontract helloWorld {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:/Users/leota/OneDrive/Desktop/helloWorldContract/contracts/helloWorld.sol",
+  "ast": {
+    "absolutePath": "/C/Users/leota/OneDrive/Desktop/helloWorldContract/contracts/helloWorld.sol",
+    "exportedSymbols": {
+      "helloWorld": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "helloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "71:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "61:2:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "71:0:1"
+            },
+            "scope": 63,
+            "src": "50:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:52:1"
+      }
+    ],
+    "src": "0:79:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/leota/OneDrive/Desktop/helloWorldContract/contracts/helloWorld.sol",
+    "exportedSymbols": {
+      "helloWorld": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "helloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "71:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "61:2:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "71:0:1"
+            },
+            "scope": 63,
+            "src": "50:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:52:1"
+      }
+    ],
+    "src": "0:79:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.2",
+  "updatedAt": "2019-04-17T15:00:37.950Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
