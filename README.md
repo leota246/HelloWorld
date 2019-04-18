@@ -1,3 +1,3 @@
 # HelloWorld
-*truffle compile
-*truffle test test/hello_world.js
+- truffle compile
+- truffle test test/hello_world.js
